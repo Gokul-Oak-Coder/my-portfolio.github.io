@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wytemoon Solutions - Your Business Partner</title>
+    <link rel="icon" href="favicon.png" type="image/png" width="1" height="1">
+  <!-- For older browsers or extra compatibility -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title><img src="logo.png" style="height: 50px;">Wytemoon Solutions - Your Business Partner</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+        html, body {
+            overflow-x: hidden;
+            max-width: 100%;
         }
 
         body {
@@ -622,21 +629,21 @@
 
     <!-- Navigation -->
     <nav>
-        <div class="container">
-            <div class="logo">Wytemoon Solutions</div>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul id="navMenu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="container">
+        <img src="logo.png" alt="Wytemoon Solutions" style="height: 100px;">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-    </nav>
+        <ul id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero visible">
